@@ -1,7 +1,25 @@
 aid: neocarbon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neocarbon.png
 name: Neocarbon
-description: Neocarbon is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  NeoCarbon GmbH is a Berlin-based climate-technology company building integrated
+  cooling and carbon-capture systems for data centers. Its patented Hollow Fiber
+  platform converts low-grade waste heat (30-55C) simultaneously into efficient
+  cooling, captured CO2 for industrial reuse, and recovered water, deployed as a
+  retrofit without redesigning existing infrastructure. Backed by Speedinvest, the
+  company operates as an industrial hardware and climate-infrastructure business
+  and does not publish a public developer API, SDKs, or an API developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/neocarbon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Climate Tech
+- Carbon Capture
+- Data Centers
+- Cooling
+- Sustainability
+- Waste Heat Recovery
+- Berlin
 apis: []
+common:
+- type: DomainSecurity
+  url: security/neocarbon-domain-security.yml
+- type: Website
+  url: https://www.neocarbon.tech/
+- type: PrivacyPolicy
+  url: https://www.neocarbon.tech/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
