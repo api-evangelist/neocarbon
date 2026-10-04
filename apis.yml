@@ -45,7 +45,7 @@ tags:
 - Company
 - Climate Tech
 - Carbon Capture
-- Data-Center
+- Data Center
 - Cooling
 - Sustainability
 - Waste Heat Recovery
@@ -59,6 +59,7 @@ tags_raw:
 - Sustainability
 - Waste Heat Recovery
 - Berlin
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
